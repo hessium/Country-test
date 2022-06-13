@@ -1,0 +1,17 @@
+
+@import "layouts/variables.scss";
+@import "media.scss";
+
+
+@import url('db.onlinewebfonts.com/c/575fc498ad34ad0f411e618dad9ed36a?family=Graphik+LC+Web+Regular');
+@import "layouts/normalize.scss";
+@import "layouts/base.scss";
+//@import "blocks/*.scss"; 
+@import "blocks/header.scss";
+@import "blocks/hero.scss"; 
+@import "blocks/btn.scss";
+@import "blocks/menu.scss";
+@import "blocks/navigation.scss";
+@import "blocks/about.scss";
+@import 'blocks/swiper.scss';
+@import "blocks/footer.scss";

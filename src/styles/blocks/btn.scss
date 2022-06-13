@@ -1,0 +1,44 @@
+.btn{
+    border-radius: 25px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover {
+        color: $red;   
+    }
+
+    &__search {
+        padding: 0;
+        width: 19px;
+        height: 19px;
+        fill: none;
+        border: none;
+        stroke:#FDFDFD;
+        background-color: transparent;
+        
+        &--icon {
+            width: 19px;
+            height: 19px;
+        }
+
+        &:hover{
+            stroke:$red;
+        }
+    }
+
+    &__origin {
+        background-color: transparent;
+        border: 2px solid $red;
+        color: $white;
+        margin-right: 15px;
+    }
+
+    &__buy {
+        border: 2px solid transparent;
+          
+        &:hover {
+            color: $red; 
+            border: 2px solid $red;         
+        }       
+    }
+}
