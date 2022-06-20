@@ -5,7 +5,7 @@
 
     &-section {
         background: url('../img/back.png') center center / cover no-repeat;
-        height: 548px;
+        height: 549px;
         margin-bottom: 50px;
         min-height: 548px;
     }
@@ -18,10 +18,11 @@
     }
 
     &__title {
-        font-size: 80px;
+        font-size: 85px;
         line-height: 88px;
         width: 50%;
         color: $white;
+        margin-bottom: 44px;
     }
 
     &__link {

@@ -1,4 +1,4 @@
-$(function() {
+/* $(function() {
     let header = $('.header');
     let hederHeight = header.height(); 
      
@@ -15,4 +15,4 @@ $(function() {
        })
       }
     });
-   });
+   }); */

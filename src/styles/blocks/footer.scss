@@ -4,9 +4,13 @@
     padding-top: 47px;
     padding-bottom: 44px;
 
+    &__container {
+        padding-right: 0;
+    }
+
     &__title{
         margin-bottom: 50px;
-        font-size: 24px;
+        font-size: 25px;
         line-height: 29px;
         color: $white;
     }
@@ -14,19 +18,21 @@
     &__list {
         display: flex;
         width: 100%;
+        justify-content: flex-start;
     }
 
     &__item {
         color: #8C8D98;
-        margin-right: 40px;
-        font-size: 16px;
+        margin-right: 52px;
+        
       
         &:nth-child(1) {
             margin-right: 22px;
         }
 
         &--desc {
-            width: 197px;
+            font-size: 16px;
+            width: 198px;
         }
 
         &:nth-child(3) {
@@ -35,6 +41,11 @@
         
         &--link {
             color: #8C8D98;
+            font-size: 16px;
+        }
+
+        &--test {
+            font-size: 17px;
         }
     }
 

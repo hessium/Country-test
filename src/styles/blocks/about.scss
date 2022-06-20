@@ -1,27 +1,27 @@
 .about {
 
     &-section {
-        margin-bottom: 120px;
+        margin-bottom: 110px;
     }
 
     &__title {
         width: 45%;
-        font-size: 40px;
+        font-size: 42px;
         line-height: 1.3;
         color: $blue;
-        margin-bottom: 40px;
+        margin-bottom: 36px;
     }
 
     &__desc {
         width: 50%;
-        font-size: 24px;
+        font-size: 25px;
         line-height: 1.4;
-        margin-bottom: 30px;
+        margin-bottom: 27px;
         color: #797A84;
     }
     
     &__block {
-        margin-top: 90px;
+        margin-top: 119px;
     }
 
     &__list {
@@ -31,6 +31,7 @@
     &__item { 
         width:300px;
         padding: 35px;
+        padding-right: 26px;
         height: 413px;
         margin-right: 46px;
         display: flex;
@@ -50,6 +51,7 @@
             color: $white;
             font-size: 24px;
             line-height: 1.2;
+            margin-bottom: 20px;
         }
 
         &--desc {
@@ -71,8 +73,8 @@
       
 
         &--link--icon{
-            width: 14px;
-            height: 9px;
+            width: 16px;
+            height: 19px;
             stroke: $white;
             fill: none;
             transform: rotate(-90deg);

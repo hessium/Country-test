@@ -1,7 +1,11 @@
 .navigation{
     width: 100%;
     padding-right: 0;
-    margin-bottom: 120px;
+    
+
+    &-section {
+        margin-bottom: 118px;
+    }
 
     &__list {
         display: grid;
